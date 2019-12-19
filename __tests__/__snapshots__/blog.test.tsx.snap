@@ -1,0 +1,1131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Enzyme tests should render About according to snapshot 1`] = `
+<Blog
+  posts={
+    Array [
+      Object {
+        "date": "2016-03-01T12:00",
+        "id": "1",
+        "src": "react_testing_library.webp",
+        "text": "qdjqfndjkvqndfv",
+        "title": "title A",
+      },
+      Object {
+        "date": "2017-03-01T12:00",
+        "id": "2",
+        "src": "react_testing_library.webp",
+        "text": "vfqdvqdfv",
+        "title": "title B",
+      },
+      Object {
+        "date": "2018-03-01T12:00",
+        "id": "3",
+        "src": "react_testing_library.webp",
+        "text": "vqdfvqfq",
+        "title": "title C",
+      },
+    ]
+  }
+>
+  <Layout>
+    <layoutstyled__StyledContainer>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "layoutstyled__StyledContainer-sc-1k1otu5-0",
+              "isStatic": false,
+              "lastClassName": "iVCOlw",
+              "rules": Array [
+                "margin:0 auto;max-width:750px;padding:1rem;display:flex;flex-direction:column;min-height:100vh;",
+              ],
+            },
+            "displayName": "layoutstyled__StyledContainer",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "layoutstyled__StyledContainer-sc-1k1otu5-0",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="layoutstyled__StyledContainer-sc-1k1otu5-0 iVCOlw"
+        >
+          <GlobalStyleComponent />
+          <layoutstyled__StyledContent>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "layoutstyled__StyledContent-sc-1k1otu5-1",
+                    "isStatic": false,
+                    "lastClassName": "jTWviK",
+                    "rules": Array [
+                      "flex-grow:1;",
+                    ],
+                  },
+                  "displayName": "layoutstyled__StyledContent",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "layoutstyled__StyledContent-sc-1k1otu5-1",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="layoutstyled__StyledContent-sc-1k1otu5-1 jTWviK"
+              >
+                <Header>
+                  <Header__Wrapper>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "Header__Wrapper-sc-1hago8x-0",
+                            "isStatic": false,
+                            "lastClassName": "cBQqfg",
+                            "rules": Array [
+                              "padding:1rem 0 3rem;",
+                            ],
+                          },
+                          "displayName": "Header__Wrapper",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "Header__Wrapper-sc-1hago8x-0",
+                          "target": "header",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <header
+                        className="Header__Wrapper-sc-1hago8x-0 cBQqfg"
+                      >
+                        <Header__Title
+                          data-testid="title"
+                        >
+                          <StyledComponent
+                            data-testid="title"
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "Header__Title-sc-1hago8x-1",
+                                  "isStatic": false,
+                                  "lastClassName": "flkuHf",
+                                  "rules": Array [
+                                    "color:#000000;font-size:3rem;text-decoration:none;",
+                                  ],
+                                },
+                                "displayName": "Header__Title",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "Header__Title-sc-1hago8x-1",
+                                "target": "h1",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <h1
+                              className="Header__Title-sc-1hago8x-1 flkuHf"
+                              data-testid="title"
+                            >
+                              Coding test with Nextjs
+                            </h1>
+                          </StyledComponent>
+                        </Header__Title>
+                        <nav>
+                          <Header__NavList>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "Header__NavList-sc-1hago8x-2",
+                                    "isStatic": false,
+                                    "lastClassName": "esosuA",
+                                    "rules": Array [
+                                      "display:flex;list-style-type:none;margin:0;",
+                                    ],
+                                  },
+                                  "displayName": "Header__NavList",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "Header__NavList-sc-1hago8x-2",
+                                  "target": "ul",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <ul
+                                className="Header__NavList-sc-1hago8x-2 esosuA"
+                              >
+                                <li
+                                  data-testid="navlink"
+                                >
+                                  <Link
+                                    href="/"
+                                  >
+                                    <Header__NavItem
+                                      onClick={[Function]}
+                                      onMouseEnter={[Function]}
+                                    >
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "Header__NavItem-sc-1hago8x-3",
+                                              "isStatic": false,
+                                              "lastClassName": "zqvkG",
+                                              "rules": Array [
+                                                "color:#999;font-size:0.9rem;margin-right:1.3rem;text-decoration:none;cursor:pointer;&:hover{color:#666;}&:active{color:#333;}",
+                                              ],
+                                            },
+                                            "displayName": "Header__NavItem",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "Header__NavItem-sc-1hago8x-3",
+                                            "target": "a",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={[Function]}
+                                        onClick={[Function]}
+                                        onMouseEnter={[Function]}
+                                      >
+                                        <a
+                                          className="Header__NavItem-sc-1hago8x-3 zqvkG"
+                                          onClick={[Function]}
+                                          onMouseEnter={[Function]}
+                                        >
+                                          Home
+                                        </a>
+                                      </StyledComponent>
+                                    </Header__NavItem>
+                                  </Link>
+                                </li>
+                                <li
+                                  data-testid="navlink"
+                                >
+                                  <Link
+                                    href="/blog"
+                                  >
+                                    <Header__NavItem
+                                      onClick={[Function]}
+                                      onMouseEnter={[Function]}
+                                    >
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "Header__NavItem-sc-1hago8x-3",
+                                              "isStatic": false,
+                                              "lastClassName": "zqvkG",
+                                              "rules": Array [
+                                                "color:#999;font-size:0.9rem;margin-right:1.3rem;text-decoration:none;cursor:pointer;&:hover{color:#666;}&:active{color:#333;}",
+                                              ],
+                                            },
+                                            "displayName": "Header__NavItem",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "Header__NavItem-sc-1hago8x-3",
+                                            "target": "a",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={[Function]}
+                                        onClick={[Function]}
+                                        onMouseEnter={[Function]}
+                                      >
+                                        <a
+                                          className="Header__NavItem-sc-1hago8x-3 zqvkG"
+                                          onClick={[Function]}
+                                          onMouseEnter={[Function]}
+                                        >
+                                          Blog
+                                        </a>
+                                      </StyledComponent>
+                                    </Header__NavItem>
+                                  </Link>
+                                </li>
+                                <li
+                                  data-testid="navlink"
+                                >
+                                  <Link
+                                    href="/about"
+                                  >
+                                    <Header__NavItem
+                                      onClick={[Function]}
+                                      onMouseEnter={[Function]}
+                                    >
+                                      <StyledComponent
+                                        forwardedComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "attrs": Array [],
+                                            "componentStyle": ComponentStyle {
+                                              "componentId": "Header__NavItem-sc-1hago8x-3",
+                                              "isStatic": false,
+                                              "lastClassName": "zqvkG",
+                                              "rules": Array [
+                                                "color:#999;font-size:0.9rem;margin-right:1.3rem;text-decoration:none;cursor:pointer;&:hover{color:#666;}&:active{color:#333;}",
+                                              ],
+                                            },
+                                            "displayName": "Header__NavItem",
+                                            "foldedComponentIds": Array [],
+                                            "render": [Function],
+                                            "styledComponentId": "Header__NavItem-sc-1hago8x-3",
+                                            "target": "a",
+                                            "toString": [Function],
+                                            "warnTooManyClasses": [Function],
+                                            "withComponent": [Function],
+                                          }
+                                        }
+                                        forwardedRef={[Function]}
+                                        onClick={[Function]}
+                                        onMouseEnter={[Function]}
+                                      >
+                                        <a
+                                          className="Header__NavItem-sc-1hago8x-3 zqvkG"
+                                          onClick={[Function]}
+                                          onMouseEnter={[Function]}
+                                        >
+                                          About
+                                        </a>
+                                      </StyledComponent>
+                                    </Header__NavItem>
+                                  </Link>
+                                </li>
+                              </ul>
+                            </StyledComponent>
+                          </Header__NavList>
+                        </nav>
+                      </header>
+                    </StyledComponent>
+                  </Header__Wrapper>
+                </Header>
+                <h1
+                  data-testid="page-title"
+                >
+                  Blog
+                </h1>
+                <SearchBar
+                  onSearch={[Function]}
+                  onSort={[Function]}
+                >
+                  <SearchBar__Wrapper>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "SearchBar__Wrapper-sc-1jn83v2-0",
+                            "isStatic": false,
+                            "lastClassName": "fLtNde",
+                            "rules": Array [
+                              "display:flex;",
+                            ],
+                          },
+                          "displayName": "SearchBar__Wrapper",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "SearchBar__Wrapper-sc-1jn83v2-0",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="SearchBar__Wrapper-sc-1jn83v2-0 fLtNde"
+                      >
+                        <SearchBar__SearchWrapper>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "SearchBar__SearchWrapper-sc-1jn83v2-1",
+                                  "isStatic": false,
+                                  "lastClassName": "gSHWSv",
+                                  "rules": Array [
+                                    "width:80%;padding-right:20px;input{width:100%;height:40px;background-color:#f5f6f7;padding:0 20px;border:0px solid lightgray;border-radius:8px;}input:focus{outline:none;border:1px solid lightgray;background-color:white;}",
+                                  ],
+                                },
+                                "displayName": "SearchBar__SearchWrapper",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "SearchBar__SearchWrapper-sc-1jn83v2-1",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="SearchBar__SearchWrapper-sc-1jn83v2-1 gSHWSv"
+                            >
+                              <SearchBar__Label>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "SearchBar__Label-sc-1jn83v2-3",
+                                        "isStatic": false,
+                                        "lastClassName": "kvKAjk",
+                                        "rules": Array [
+                                          "color:#999;display:block;margin:0 0 8px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.75px;",
+                                        ],
+                                      },
+                                      "displayName": "SearchBar__Label",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "SearchBar__Label-sc-1jn83v2-3",
+                                      "target": "label",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <label
+                                    className="SearchBar__Label-sc-1jn83v2-3 kvKAjk"
+                                  >
+                                    TITLE
+                                  </label>
+                                </StyledComponent>
+                              </SearchBar__Label>
+                              <input
+                                onChange={[Function]}
+                                placeholder="search"
+                                type="text"
+                              />
+                            </div>
+                          </StyledComponent>
+                        </SearchBar__SearchWrapper>
+                        <SearchBar__SortSelectWrapper>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "SearchBar__SortSelectWrapper-sc-1jn83v2-2",
+                                  "isStatic": false,
+                                  "lastClassName": "TdXca",
+                                  "rules": Array [
+                                    "width:20%;select{width:100%;height:40px;background-color:white;border-radius:8px;border:1px solid lightgray;}select:focus{outline:none;background-color:white;}",
+                                  ],
+                                },
+                                "displayName": "SearchBar__SortSelectWrapper",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "SearchBar__SortSelectWrapper-sc-1jn83v2-2",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="SearchBar__SortSelectWrapper-sc-1jn83v2-2 TdXca"
+                            >
+                              <SearchBar__Label>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "SearchBar__Label-sc-1jn83v2-3",
+                                        "isStatic": false,
+                                        "lastClassName": "kvKAjk",
+                                        "rules": Array [
+                                          "color:#999;display:block;margin:0 0 8px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.75px;",
+                                        ],
+                                      },
+                                      "displayName": "SearchBar__Label",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "SearchBar__Label-sc-1jn83v2-3",
+                                      "target": "label",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <label
+                                    className="SearchBar__Label-sc-1jn83v2-3 kvKAjk"
+                                  >
+                                    SORT BY
+                                  </label>
+                                </StyledComponent>
+                              </SearchBar__Label>
+                              <select
+                                onChange={[Function]}
+                              >
+                                <option
+                                  value="desc"
+                                >
+                                  New
+                                </option>
+                                <option
+                                  value="asc"
+                                >
+                                  Old
+                                </option>
+                              </select>
+                            </div>
+                          </StyledComponent>
+                        </SearchBar__SortSelectWrapper>
+                      </div>
+                    </StyledComponent>
+                  </SearchBar__Wrapper>
+                </SearchBar>
+                <div
+                  className="Post__List"
+                >
+                  <PostItem
+                    key="3"
+                    post={
+                      Object {
+                        "date": "2018-03-01T12:00",
+                        "id": "3",
+                        "src": "react_testing_library.webp",
+                        "text": "vqdfvqfq",
+                        "title": "title C",
+                      }
+                    }
+                  >
+                    <PostItem__Wrapper>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PostItem__Wrapper-sc-178mjzt-0",
+                              "isStatic": false,
+                              "lastClassName": "eoXLgg",
+                              "rules": Array [
+                                "margin-top:5rem;margin-bottom:1rem;",
+                              ],
+                            },
+                            "displayName": "PostItem__Wrapper",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PostItem__Wrapper-sc-178mjzt-0",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className="PostItem__Wrapper-sc-178mjzt-0 eoXLgg"
+                        >
+                          <PostItem__Image
+                            alt="title C"
+                            src="https://upply-interview.herokuapp.com/images/react_testing_library.webp"
+                          >
+                            <StyledComponent
+                              alt="title C"
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Image-sc-178mjzt-2",
+                                    "isStatic": false,
+                                    "lastClassName": "hQSBRZ",
+                                    "rules": Array [
+                                      "border-radius:4px;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Image",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Image-sc-178mjzt-2",
+                                  "target": "img",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              src="https://upply-interview.herokuapp.com/images/react_testing_library.webp"
+                            >
+                              <img
+                                alt="title C"
+                                className="PostItem__Image-sc-178mjzt-2 hQSBRZ"
+                                src="https://upply-interview.herokuapp.com/images/react_testing_library.webp"
+                              />
+                            </StyledComponent>
+                          </PostItem__Image>
+                          <PostItem__Title>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Title-sc-178mjzt-1",
+                                    "isStatic": false,
+                                    "lastClassName": "dcqFDT",
+                                    "rules": Array [
+                                      "margin:0;font-size:30px;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Title",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Title-sc-178mjzt-1",
+                                  "target": "h3",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <h3
+                                className="PostItem__Title-sc-178mjzt-1 dcqFDT"
+                              >
+                                title C
+                              </h3>
+                            </StyledComponent>
+                          </PostItem__Title>
+                          <PostItem__Date>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Date-sc-178mjzt-4",
+                                    "isStatic": false,
+                                    "lastClassName": "bdxBtv",
+                                    "rules": Array [
+                                      "font-size:14px;color:gray;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Date",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Date-sc-178mjzt-4",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="PostItem__Date-sc-178mjzt-4 bdxBtv"
+                              >
+                                 
+                                2018-03-01T12:00
+                              </div>
+                            </StyledComponent>
+                          </PostItem__Date>
+                          <PostItem__Text>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Text-sc-178mjzt-3",
+                                    "isStatic": false,
+                                    "lastClassName": "bKeflc",
+                                    "rules": Array [
+                                      "font-size:22px;line-height:1.5;margin-top:20px;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Text",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Text-sc-178mjzt-3",
+                                  "target": "p",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <p
+                                className="PostItem__Text-sc-178mjzt-3 bKeflc"
+                              >
+                                vqdfvqfq
+                              </p>
+                            </StyledComponent>
+                          </PostItem__Text>
+                        </div>
+                      </StyledComponent>
+                    </PostItem__Wrapper>
+                  </PostItem>
+                  <PostItem
+                    key="2"
+                    post={
+                      Object {
+                        "date": "2017-03-01T12:00",
+                        "id": "2",
+                        "src": "react_testing_library.webp",
+                        "text": "vfqdvqdfv",
+                        "title": "title B",
+                      }
+                    }
+                  >
+                    <PostItem__Wrapper>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PostItem__Wrapper-sc-178mjzt-0",
+                              "isStatic": false,
+                              "lastClassName": "eoXLgg",
+                              "rules": Array [
+                                "margin-top:5rem;margin-bottom:1rem;",
+                              ],
+                            },
+                            "displayName": "PostItem__Wrapper",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PostItem__Wrapper-sc-178mjzt-0",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className="PostItem__Wrapper-sc-178mjzt-0 eoXLgg"
+                        >
+                          <PostItem__Image
+                            alt="title B"
+                            src="https://upply-interview.herokuapp.com/images/react_testing_library.webp"
+                          >
+                            <StyledComponent
+                              alt="title B"
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Image-sc-178mjzt-2",
+                                    "isStatic": false,
+                                    "lastClassName": "hQSBRZ",
+                                    "rules": Array [
+                                      "border-radius:4px;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Image",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Image-sc-178mjzt-2",
+                                  "target": "img",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              src="https://upply-interview.herokuapp.com/images/react_testing_library.webp"
+                            >
+                              <img
+                                alt="title B"
+                                className="PostItem__Image-sc-178mjzt-2 hQSBRZ"
+                                src="https://upply-interview.herokuapp.com/images/react_testing_library.webp"
+                              />
+                            </StyledComponent>
+                          </PostItem__Image>
+                          <PostItem__Title>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Title-sc-178mjzt-1",
+                                    "isStatic": false,
+                                    "lastClassName": "dcqFDT",
+                                    "rules": Array [
+                                      "margin:0;font-size:30px;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Title",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Title-sc-178mjzt-1",
+                                  "target": "h3",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <h3
+                                className="PostItem__Title-sc-178mjzt-1 dcqFDT"
+                              >
+                                title B
+                              </h3>
+                            </StyledComponent>
+                          </PostItem__Title>
+                          <PostItem__Date>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Date-sc-178mjzt-4",
+                                    "isStatic": false,
+                                    "lastClassName": "bdxBtv",
+                                    "rules": Array [
+                                      "font-size:14px;color:gray;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Date",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Date-sc-178mjzt-4",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="PostItem__Date-sc-178mjzt-4 bdxBtv"
+                              >
+                                 
+                                2017-03-01T12:00
+                              </div>
+                            </StyledComponent>
+                          </PostItem__Date>
+                          <PostItem__Text>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Text-sc-178mjzt-3",
+                                    "isStatic": false,
+                                    "lastClassName": "bKeflc",
+                                    "rules": Array [
+                                      "font-size:22px;line-height:1.5;margin-top:20px;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Text",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Text-sc-178mjzt-3",
+                                  "target": "p",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <p
+                                className="PostItem__Text-sc-178mjzt-3 bKeflc"
+                              >
+                                vfqdvqdfv
+                              </p>
+                            </StyledComponent>
+                          </PostItem__Text>
+                        </div>
+                      </StyledComponent>
+                    </PostItem__Wrapper>
+                  </PostItem>
+                  <PostItem
+                    key="1"
+                    post={
+                      Object {
+                        "date": "2016-03-01T12:00",
+                        "id": "1",
+                        "src": "react_testing_library.webp",
+                        "text": "qdjqfndjkvqndfv",
+                        "title": "title A",
+                      }
+                    }
+                  >
+                    <PostItem__Wrapper>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PostItem__Wrapper-sc-178mjzt-0",
+                              "isStatic": false,
+                              "lastClassName": "eoXLgg",
+                              "rules": Array [
+                                "margin-top:5rem;margin-bottom:1rem;",
+                              ],
+                            },
+                            "displayName": "PostItem__Wrapper",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PostItem__Wrapper-sc-178mjzt-0",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className="PostItem__Wrapper-sc-178mjzt-0 eoXLgg"
+                        >
+                          <PostItem__Image
+                            alt="title A"
+                            src="https://upply-interview.herokuapp.com/images/react_testing_library.webp"
+                          >
+                            <StyledComponent
+                              alt="title A"
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Image-sc-178mjzt-2",
+                                    "isStatic": false,
+                                    "lastClassName": "hQSBRZ",
+                                    "rules": Array [
+                                      "border-radius:4px;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Image",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Image-sc-178mjzt-2",
+                                  "target": "img",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              src="https://upply-interview.herokuapp.com/images/react_testing_library.webp"
+                            >
+                              <img
+                                alt="title A"
+                                className="PostItem__Image-sc-178mjzt-2 hQSBRZ"
+                                src="https://upply-interview.herokuapp.com/images/react_testing_library.webp"
+                              />
+                            </StyledComponent>
+                          </PostItem__Image>
+                          <PostItem__Title>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Title-sc-178mjzt-1",
+                                    "isStatic": false,
+                                    "lastClassName": "dcqFDT",
+                                    "rules": Array [
+                                      "margin:0;font-size:30px;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Title",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Title-sc-178mjzt-1",
+                                  "target": "h3",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <h3
+                                className="PostItem__Title-sc-178mjzt-1 dcqFDT"
+                              >
+                                title A
+                              </h3>
+                            </StyledComponent>
+                          </PostItem__Title>
+                          <PostItem__Date>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Date-sc-178mjzt-4",
+                                    "isStatic": false,
+                                    "lastClassName": "bdxBtv",
+                                    "rules": Array [
+                                      "font-size:14px;color:gray;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Date",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Date-sc-178mjzt-4",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="PostItem__Date-sc-178mjzt-4 bdxBtv"
+                              >
+                                 
+                                2016-03-01T12:00
+                              </div>
+                            </StyledComponent>
+                          </PostItem__Date>
+                          <PostItem__Text>
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "PostItem__Text-sc-178mjzt-3",
+                                    "isStatic": false,
+                                    "lastClassName": "bKeflc",
+                                    "rules": Array [
+                                      "font-size:22px;line-height:1.5;margin-top:20px;",
+                                    ],
+                                  },
+                                  "displayName": "PostItem__Text",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "PostItem__Text-sc-178mjzt-3",
+                                  "target": "p",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <p
+                                className="PostItem__Text-sc-178mjzt-3 bKeflc"
+                              >
+                                qdjqfndjkvqndfv
+                              </p>
+                            </StyledComponent>
+                          </PostItem__Text>
+                        </div>
+                      </StyledComponent>
+                    </PostItem__Wrapper>
+                  </PostItem>
+                </div>
+              </div>
+            </StyledComponent>
+          </layoutstyled__StyledContent>
+          <Footer>
+            <Footer__Wrapper>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Footer__Wrapper-sc-1so89p3-0",
+                      "isStatic": false,
+                      "lastClassName": "giKWMg",
+                      "rules": Array [
+                        "margin-top:3rem;",
+                      ],
+                    },
+                    "displayName": "Footer__Wrapper",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "Footer__Wrapper-sc-1so89p3-0",
+                    "target": "footer",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <footer
+                  className="Footer__Wrapper-sc-1so89p3-0 giKWMg"
+                >
+                  <p
+                    data-testid="copyright"
+                  >
+                    © 2019
+                  </p>
+                </footer>
+              </StyledComponent>
+            </Footer__Wrapper>
+          </Footer>
+        </div>
+      </StyledComponent>
+    </layoutstyled__StyledContainer>
+  </Layout>
+</Blog>
+`;
