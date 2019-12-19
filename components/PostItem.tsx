@@ -33,13 +33,25 @@ type Props = {
 };
 
 const PostItem: React.FunctionComponent<Props> = ({ post }) => {
+  const truncate = (s: string, n: number, useWordBoundary: boolean) => {
+    if (s.length <= n) {
+      return s;
+    }
+    var subString = s.substr(0, n - 1);
+    return (
+      (useWordBoundary
+        ? subString.substr(0, subString.lastIndexOf(" "))
+        : subString) + "..."
+    );
+  };
+
   return (
     <Wrapper>
       <Image
         src={`https://upply-interview.herokuapp.com/images/${post.src}`}
         alt={post.title}
       />
-      <Title>{post.title}</Title>
+      <Title>{truncate(post.title, 50, true)}</Title>
       <Date> {post.date}</Date>
       <Text>{post.text}</Text>
     </Wrapper>
