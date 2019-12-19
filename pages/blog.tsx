@@ -31,8 +31,26 @@ const Blog: NextPage<Props> = ({ posts }) => {
       return filteredPosts;
     };
 
+    const getTime = (dateString: string) => {
+      if (!dateString) {
+        return 0;
+      }
+      const date = new Date(dateString);
+      return date != null ? date.getTime() : 0;
+    };
+
+    const sortPostsByDate = (posts: Post[]): Post[] => {
+      let sortedPosts = posts.filter(post => post.date);
+      sortedPosts = sortedPosts.sort(
+        (post1, post2) => getTime(post2.date) - getTime(post1.date)
+      );
+      return sortedPosts;
+    };
+
     const filteredPosts = filterPostsByTitle(posts, searchString);
-    setFilteredPosts(filteredPosts);
+    const sortedPosts = sortPostsByDate(filteredPosts);
+    const nondatedPosts = filteredPosts.filter(post => !post.date);
+    setFilteredPosts([...sortedPosts, ...nondatedPosts]);
   }, [searchString]);
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
