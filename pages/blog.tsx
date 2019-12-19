@@ -14,6 +14,7 @@ type Props = {
 const Blog: NextPage<Props> = ({ posts }) => {
   const [filteredPosts, setFilteredPosts] = useState([]);
   const [searchString, setSearchString] = useState("");
+  const [sortBy, setSortBy] = useState("desc");
 
   useEffect(() => {
     const filterPostsByTitle = (
@@ -39,26 +40,33 @@ const Blog: NextPage<Props> = ({ posts }) => {
       return date != null ? date.getTime() : 0;
     };
 
-    const sortPostsByDate = (posts: Post[]): Post[] => {
+    const sortPostsByDate = (posts: Post[], sortBy: string): Post[] => {
       let sortedPosts = posts.filter(post => post.date);
-      sortedPosts = sortedPosts.sort(
-        (post1, post2) => getTime(post2.date) - getTime(post1.date)
-      );
+      if (sortBy === "desc") {
+        sortedPosts = sortedPosts.sort(
+          (post1, post2) => getTime(post2.date) - getTime(post1.date)
+        );
+      } else {
+        sortedPosts = sortedPosts.sort(
+          (post1, post2) => getTime(post1.date) - getTime(post2.date)
+        );
+      }
       return sortedPosts;
     };
 
     const filteredPosts = filterPostsByTitle(posts, searchString);
-    const sortedPosts = sortPostsByDate(filteredPosts);
+    const sortedPosts = sortPostsByDate(filteredPosts, sortBy);
     const nondatedPosts = filteredPosts.filter(post => !post.date);
     setFilteredPosts([...sortedPosts, ...nondatedPosts]);
-  }, [searchString]);
+  }, [searchString, sortBy]);
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchString(event.target.value);
   };
 
   const handleSort = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    console.log("Sort:", event.target.value);
+    console.log("event.target.value:", event.target.value);
+    setSortBy(event.target.value);
   };
 
   return (
