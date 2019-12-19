@@ -57,10 +57,14 @@ const Blog: NextPage<Props> = ({ posts }) => {
     setSearchString(event.target.value);
   };
 
+  const handleSort = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    console.log("Sort:", event.target.value);
+  };
+
   return (
     <Layout>
       <h1 data-testid="page-title">Blog</h1>
-      <SearchBar onSearch={handleSearch} />
+      <SearchBar onSearch={handleSearch} onSort={handleSort} />
       <div className="Post__List">
         {filteredPosts.map(
           (post: Post): JSX.Element => (
