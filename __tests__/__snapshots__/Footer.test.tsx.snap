@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Enzyme tests should render Footer according to snapshot 1`] = `
+<Footer>
+  <styled.footer>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "yyWgM",
+            "rules": Array [
+              "
+  margin-top: 3rem;
+",
+            ],
+          },
+          "displayName": "styled.footer",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "footer",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <footer
+        className="sc-bdVaJa yyWgM"
+      >
+        <p
+          data-testid="copyright"
+        >
+          © 2019
+        </p>
+      </footer>
+    </StyledComponent>
+  </styled.footer>
+</Footer>
+`;
