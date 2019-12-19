@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import React, { useState, useEffect } from "react";
 
 import Layout from "../components/Layout";
 import PostItem from "../components/PostItem";
@@ -11,8 +12,31 @@ type Props = {
 };
 
 const Blog: NextPage<Props> = ({ posts }) => {
+  const [filteredPosts, setFilteredPosts] = useState([]);
+  const [searchString, setSearchString] = useState("");
+
+  useEffect(() => {
+    const filterPostsByTitle = (
+      posts: Post[],
+      searchString: string
+    ): Post[] => {
+      let filteredPosts = posts;
+
+      if (searchString) {
+        filteredPosts = posts.filter(
+          post =>
+            post.title.toLowerCase().indexOf(searchString.toLowerCase()) !== -1
+        );
+      }
+      return filteredPosts;
+    };
+
+    const filteredPosts = filterPostsByTitle(posts, searchString);
+    setFilteredPosts(filteredPosts);
+  }, [searchString]);
+
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
-    console.log("Search string: ", event.target.value);
+    setSearchString(event.target.value);
   };
 
   return (
@@ -20,7 +44,7 @@ const Blog: NextPage<Props> = ({ posts }) => {
       <h1 data-testid="page-title">Blog</h1>
       <SearchBar onSearch={handleSearch} />
       <div className="Post__List">
-        {posts.map(
+        {filteredPosts.map(
           (post: Post): JSX.Element => (
             <PostItem key={post.id} post={post} />
           )
