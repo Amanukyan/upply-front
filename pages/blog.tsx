@@ -11,7 +11,7 @@ type Props = {
 
 const Blog: NextPage<Props> = ({ posts }) => (
   <Layout>
-    <h1 data-testid="page-title">About</h1>
+    <h1 data-testid="page-title">Blog</h1>
     <div className="Post__List">
       {posts.map(
         (post: Post): JSX.Element => (
